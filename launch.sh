@@ -11,8 +11,8 @@ update() {
 
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
-  git clone https://github.com/keplerproject/luarocks.git
-  cd luarocks
+  git clone https://github.com/SEEDTEAM/TeleSeed.git -b supergroups
+  cd teleseed
   git checkout tags/v2.2.1 # Current stable
 
   PREFIX="$THIS_DIR/.luarocks"
